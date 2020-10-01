@@ -23,7 +23,7 @@ namespace GameEvents
 
         public void Raise(T a, U b)
         {
-            Debug.Log("Event " + this.name + " raised.");
+            Debug.Log("Event " + this.name + " raised with arguments: " + a + ", " + b);
             for (int i = listeners.Count - 1; i >= 0; i--)
             {
                 listeners[i].OnEventRaised(a, b);
