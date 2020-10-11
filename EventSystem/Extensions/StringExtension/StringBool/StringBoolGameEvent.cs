@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace GameEvents.StringExtension
 {
-    [CreateAssetMenu(fileName = "StringBoolGameEvent", menuName = "GameEvents/Extensions/StringExtension/StringBoolGameEvent", order = -517)]
+    [CreateAssetMenu(fileName = "StringBoolGameEvent", menuName = "GameEvents/Extensions/StringExtension/StringBoolGameEvent", order = -617)]
     public class StringBoolGameEvent : TwoArgGameEvent<string, bool>
     {
 

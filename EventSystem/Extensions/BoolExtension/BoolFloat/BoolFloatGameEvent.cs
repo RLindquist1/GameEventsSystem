@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace GameEvents.BoolExtension
 {
-    [CreateAssetMenu(fileName = "BoolFloatGameEvent", menuName = "GameEvents/Extensions/BoolExtension/BoolFloatGameEvent", order = -419)]
+    [CreateAssetMenu(fileName = "BoolFloatGameEvent", menuName = "GameEvents/Extensions/BoolExtension/BoolFloatGameEvent", order = -569)]
     public class BoolFloatGameEvent : TwoArgGameEvent<bool, float>
     {
 

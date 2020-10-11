@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace GameEvents.ScriptableObjectExtension
 {
-    [CreateAssetMenu(fileName = "ScriptableObjectVector2GameEvent", menuName = "GameEvents/Extensions/ScriptableObjectExtension/ScriptableObjectVector2GameEvent", order = -010)]
+    [CreateAssetMenu(fileName = "ScriptableObjectVector2GameEvent", menuName = "GameEvents/Extensions/ScriptableObjectExtension/ScriptableObjectVector2GameEvent", order = -261)]
     public class ScriptableObjectVector2GameEvent : TwoArgGameEvent<ScriptableObject, Vector2>
     {
 

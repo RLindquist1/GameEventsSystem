@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace GameEvents.GameObjectExtension
 {
-    [CreateAssetMenu(fileName = "GameObjectFloatGameEvent", menuName = "GameEvents/Extensions/GameObjectExtension/GameObjectFloatGameEvent", order = -119)]
+    [CreateAssetMenu(fileName = "GameObjectFloatGameEvent", menuName = "GameEvents/Extensions/GameObjectExtension/GameObjectFloatGameEvent", order = -319)]
     public class GameObjectFloatGameEvent : TwoArgGameEvent<GameObject, float>
     {
 
